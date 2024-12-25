@@ -1,0 +1,193 @@
+@font-face{
+ font-family:'digital';
+ src: url('/digital-7.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        font-family: "Oswald", sans-serif;
+}
+
+body {
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+        font-family: "Oswald";
+}
+
+.box {
+        width: 300px;
+        top: 50px;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+}
+
+.nn {
+        background: hsla(188, 61%, 41%, 0.27058823529411763);
+}
+
+.btn  {
+        width: 90px;
+        padding: 15px;
+        background: #7D83618F;
+        margin-top: 15px;
+        text-size: 16px;
+        font-size: 16px;
+        font-family:digital ;
+        box-shadow: 0 5px 5px #00000070;
+        display: flex;
+        margin-left: 5px;
+        text-align: center;
+        border: none;
+        border-radius: 4px;
+}
+
+.bb {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        
+}
+.ww {
+        
+        width: 280px;
+        height: 86px;
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 20px;
+        border: 4px solid #01010145;
+        box-shadow: 0 6px 12px 6px #01010145;
+        
+}
+
+.nn9393 {
+        border-radius: 50%;
+        box-shadow: 0 6px 12px 6px #01010145,
+                   -16px -5px  #01010145;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        margin-left: 25px;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 24px;
+}
+
+.rs3838 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 20px;
+        justify-content: space-between;
+        align-items: center;
+        font-family: digital;
+}
+.close {
+        top: 1rem;
+        right: 5rem;
+        width: 30px;
+        font-size: 1.5rem;
+        cursor: pointer;
+} 
+
+#win {
+        box-shadow: 0 6px 12px 6px #01010145,
+                   -16px -5px  #2CA82945;
+                   
+        background: #297CA87D;           
+}
+
+#lose {
+        box-shadow: 0 6px 12px 6px #01010145,
+                    -16px -5px #A8292945;
+                    
+        background: #6229A845;           
+}
+
+/* To center the text in the `.rs` and `.nn` divs, you need to apply some additional CSS properties. Here’s the modified code for both the `.rs` and `.nn` classes:
+
+```css */
+
+.nn {
+        border-radius: 50%;
+        box-shadow: 0 6px 12px 6px #01010145,
+                   -16px -5px  #01010145;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        margin-left: 25px;
+        align-items: center;
+        justify-content: center;
+        display: flex; /* Added to enable flexbox centering */
+        font-size: 24px;
+        font-family: digital;
+}
+
+.rs {
+        display: flex;
+        flex-direction: row;
+        text-align: center; /* This ensures that text within the div is centered */
+        margin-top: 20px;
+        justify-content: center; /* Changed from space-between to center for centering */
+        align-items: center;
+        font-family: digital;
+}
+
+
+/* ### Changes made:
+1. For the `.nn` class:
+   - Added `display: flex;` to enable flexbox properties, which allows you to use `align-items` and `justify-content` for centering.
+   
+2. For the `.rs` class:
+   - Changed `justify-content: space-between;` to `justify-content: center;`. This centers the items contained in the row.
+
+Now, the text within both `.nn` and `.rs` divs will be centered correctly. */
+
+
+
+.r {
+        background: hsla(283, 61%, 41%, 0.27058823529411763);
+        transition: background .4s;
+
+}
+
+.p {
+        background: hsla(40, 61%, 41%, 0.27058823529411763);
+        transition: background .4s;
+
+}
+
+.s {
+        background: hsla(163, 61%, 41%, 0.27058823529411763);
+        transition: background .4s;
+
+}
+
+
+.r:hover {
+        background: hsla(283, 671%, 50%, 0.27058823529411763);
+        width: 95px;
+}
+
+
+.p:hover {
+        background: hsla(40, 90%, 71%, 0.27058823529411763);
+        width: 95px;
+}
+
+.s:hover {
+        background: hsla(163, 221%, 40%, 0.27058823529411763);
+        width: 95px;
+}
